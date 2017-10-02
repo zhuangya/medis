@@ -13,7 +13,9 @@
     "release": "NODE_ENV=production ./bin/release",
     "sign": "./bin/sign",
     "unsign": "./bin/unsign",
-    "tomedis": "./bin/tomedis"
+    "tomedis": "./bin/tomedis",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -47,7 +49,8 @@
     "reselect": "^2.0.0",
     "sortablejs": "^1.4.1",
     "ssh2": "^0.5.4",
-    "url-loader": "^0.5.7"
+    "url-loader": "^0.5.7",
+    "snyk": "^1.42.0"
   },
   "devDependencies": {
     "asar": "^0.8.3",
@@ -70,5 +73,6 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "snyk": true
 }
