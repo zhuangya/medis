@@ -30,7 +30,7 @@
     "json-editor": "^0.7.23",
     "jsonlint": "^1.6.2",
     "lint": "^1.1.2",
-    "lodash": "^3.10.1",
+    "lodash": "^4.17.5",
     "msgpack5": "^3.3.0",
     "react": "^0.14.0",
     "react-addons-css-transition-group": "^0.14.3",
